@@ -542,11 +542,11 @@ class Game {
         if (type === 'night2') {
             // Night 2 教程：Trump
             tutorialContent.innerHTML = `
-                <h2>DEFEND YOURSELF AGAINST TRUMP</h2>
+                <h2>DEFEND YOURSELF AGAINST JONAS</h2>
                 <p>
-                    TRUMP WILL TRY TO ATTACK YOU THROUGH THE VENTS IN CAM 1 AND CAM 2, SO IF YOU HEAR BANGING IN THE VENTS HEAD OVER TO THE CONTROL PANEL AND CLOSE THEM. 
+                    JONAS WILL TRY TO ATTACK YOU THROUGH THE VENTS IN CAM 1 AND CAM 2, SO IF YOU HEAR BANGING IN THE VENTS HEAD OVER TO THE CONTROL PANEL AND CLOSE THEM. 
                     AFTER CLOSING THEM YOU WILL HEAR BANGING AGAIN AFTER A FEW SECONDS WHICH MEANS HE LEFT THE VENTS. YOU MUST OPEN THE VENTS OTHERWISE YOU WILL DIE FROM LACK OF OXYGEN. 
-                    TRUMP CAN BE LURED WITH THE AUDIOS BUT YOUR MAIN PRIORITY WITH THE AUDIO LURES SHOULD BE EPSTEIN.
+                    JONAS CAN BE LURED WITH THE AUDIOS BUT YOUR MAIN PRIORITY WITH THE AUDIO LURES SHOULD BE ERIK.
                 </p>
                 <button id="tutorial-got-it">GOT IT</button>
             `;
@@ -573,14 +573,14 @@ class Game {
         } else {
             // Night 1 教程：EP
             tutorialContent.innerHTML = `
-                <h2>DEFEND YOURSELF AGAINST EPSTEIN</h2>
+                <h2>DEFEND YOURSELF AGAINST MARKUS</h2>
                 <p>
-                    EPSTEIN ALWAYS STARTS AT CAM 11. USE THE CAMERA'S AUDIO LURE TO KEEP EPSTEIN FAR AWAY FROM YOU. 
-                    MAKE SURE THE CAMERA YOU'RE PLAYING THE SOUND IN IS NEXT TO THE CAMERA WHERE EPSTEIN IS. 
+                    ERIK ALWAYS STARTS AT CAM 11. USE THE CAMERA'S AUDIO LURE TO KEEP ERIK FAR AWAY FROM YOU. 
+                    MAKE SURE THE CAMERA YOU'RE PLAYING THE SOUND IN IS NEXT TO THE CAMERA WHERE ERIK IS. 
                     PLAYING SOUND IN ONLY ONE SPOT WILL NOT WORK IF YOU DO IT TWICE OR MORE IN A ROW. 
                     USING THE AUDIO LURE TOO MUCH WILL LEAD TO THE CAMERAS BREAKING. 
                     TO FIX THEM HEAD TO THE CONTROL PANEL AND RESTART THE CAMERAS LIKE YOU JUST DID. 
-                    EPSTEIN DOES NOT ATTACK THROUGH THE VENTS SO DON'T BOTHER CLOSING THEM FOR THIS NIGHT.
+                    ERIK DOES NOT ATTACK THROUGH THE VENTS SO DON'T BOTHER CLOSING THEM FOR THIS NIGHT.
                 </p>
                 <button id="tutorial-got-it">GOT IT</button>
             `;
@@ -1351,7 +1351,7 @@ class Game {
         
         // Night 5: 必定触发 Golden 霍金彩蛋
         if (this.state.currentNight === 5) {
-            console.log('🌟 Night 5 detected (continueToNextNight), triggering Golden Stephen...');
+            console.log('🌟 Night 5 detected (continueToNextNight), triggering Golden MARKUS...');
             setTimeout(() => {
                 this.showGoldenStephen();
             }, 1000);
