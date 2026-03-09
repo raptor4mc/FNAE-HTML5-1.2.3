@@ -573,7 +573,7 @@ class Game {
         } else {
             // Night 1 教程：EP
             tutorialContent.innerHTML = `
-                <h2>DEFEND YOURSELF AGAINST MARKUS</h2>
+                <h2>DEFEND YOURSELF AGAINST ERIK</h2>
                 <p>
                     ERIK ALWAYS STARTS AT CAM 11. USE THE CAMERA'S AUDIO LURE TO KEEP ERIK FAR AWAY FROM YOU. 
                     MAKE SURE THE CAMERA YOU'RE PLAYING THE SOUND IN IS NEXT TO THE CAMERA WHERE ERIK IS. 
